@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000
+}
+
+.container{
+    text-align: center;
+} 
+.container h1{
+    color: #ffffff;
+}
+
+#welcome #lab{
+    font-size: 32px;
+    color: #333;
+    display: inline-block;
+    opacity: 0;
+}
+#welcome{    
+    animation: flyInRight 1.5s
+    ease-out, flyOutRight 1.5s ease-out 3s;
+}
+
+#lab{    
+    animation: flyInLeft 1.5s
+    ease-out, flyOutLeft 1.5s ease-out 3s;
+}
+
+@keyframes flyInRight {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flyInLeft {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flyOutRight {
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes flyOutLeft {
+    from{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}

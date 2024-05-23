@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    background: rgb(0, 0, 146);
+    top: 0;
+    padding: 5px;
+    position: sticky;
+    z-index: 100;
+}
+.navb{
+    align-items: center;
+    display: flex;
+}
+.name{
+    color: white;
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+}
+.name img{
+    width: 50px;
+}
+.name h4{
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    margin-left: 100px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    font-weight: 600;
+}
+nav ul li:hover{
+    border-bottom: none;
+    color: rgb(255, 0, 0);
+}
+.active{
+    color: rgb(60, 255, 0);
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 30px;
+}
+/*------------INTRO-----------------*/
+.intro{
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.logo{
+justify-content: center;
+  display: flex;
+}
+.wel{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.wel h4{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 5px;
+}
+.main{
+margin-top: 5px;
+}
+.main h2{
+    text-align: center;
+}
+.main h2 span{
+    color: rgb(255, 0, 0);
+}
+.year{
+    margin-top: 10px;
+    padding: 0 20%;
+}
+.year1{
+    background: rgb(248, 248, 248);
+    color: black;
+    border-radius: 10px;
+    margin-top:20px;
+    box-shadow: 7px 7px 7px black;
+    
+}
+.year1 h2{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.year1 ul{
+    list-style: none;
+   
+}
+.year1 ul a{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.year1 ul a li{
+    background: rgb(58, 19, 228);
+    padding: 10px;
+}
+.year1 ul a li:hover{
+    background: rgb(87, 87, 255);
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+.sub{
+    padding: 0 10%;
+    margin-top: 10px;
+}
+.s1{
+    border: 3px solid blue;
+    border-radius: 40px;
+    padding: 0 2%;
+    box-shadow: 4px 4px 4px black;
+    margin-top: 30px;
+}
+.s1 h2{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+.n1{
+    display: flex;
+    background: rgb(208, 203, 255);
+    padding: 10px;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+.l{
+    display: flex;
+    align-items: center;
+}
+.l h1{
+    
+font-size: 25px;
+}
+.n1 img{
+    width: 50px;
+}
+.r{
+    display: flex;
+}
+.r p{
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.d1 a{
+    display: flex;
+    align-items: center;
+    background: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.d1 a:hover{
+    background: rgb(87, 87, 255);
+}
+.d1 a img{
+    width: 30px;
+}
+
+
+
+
+/*------------------Services-----------*/
+
+
+.scon{
+    padding: 0 15%;
+    margin-top: 20px;
+}
+.medical{
+    background: rgb(0, 0, 146);
+    padding: 20px 2%;
+    border-radius: 20px;
+}
+.medt p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.medt p span{
+    color: yellow;
+}
+.medt p r{
+    color: red;
+}
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: green;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 7px 7px 7px black;
+}
+.order:hover{
+    background: rgb(103, 170, 2);
+}
+.order img{
+    width: 30px;
+}
+.flyer{
+    padding: 15px 2%;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 146);
+    margin-top: 10px;
+}
+.fly{
+    font-size: 25px;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+}
+.fly p{
+    color: white;
+    background: rgb(0, 0, 146);
+    padding: 5px;
+}
+.fly img{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 100%;
+    background: #ececec;
+    background-image: linear-gradient(120deg, #b4b4b4 50%, #d3d3d3 60%, #d3d3d3 61%, #b4b4b4 70%);
+    background-size: 200%;
+    background-position: 100% 0;
+    animation: waves 2s linear infinite;
+}
+.medica{
+    background: rgb(0, 0, 146);
+    padding: 20px 2%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.med p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.med p span{
+    color: yellow;
+}
+
+/*-----------------About---------------*/
+
+.about{
+    padding: 20px 10%;
+    
+    margin-top: 20px;
+}
+.abt{
+    background: rgb(0, 0, 146);
+    padding: 20px 5%;
+    border-radius: 20px;
+}
+.relev p{
+    color: white;
+    font-size: 20px;
+}
+.relev p span{
+    color: yellow;
+}
+.question{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.exp img{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    background: #ececec;
+    background-image: linear-gradient(120deg, #b4b4b4 50%, #d3d3d3 60%, #d3d3d3 61%, #b4b4b4 70%);
+    background-size: 200%;
+    background-position: 100% 0;
+    animation: waves 2s linear infinite;
+}
+.exp p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.exp li{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes waves{
+    100%{
+    background-position: -100% 0;
+}
+}
+
+
+/*-----android screen---*/
+
+@media (max-width: 900px){
+
+
+    /*--------For Homepage-------------*/
+
+    .name img{
+        width: 30px;
+    }
+    .name h4{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    nav ul li{
+        margin-left: 7px;
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+    .intro{
+        margin-top: 10px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .wel h2{
+        font-size: 20px;
+    }
+    .wel h3{
+        font-size: 17px;
+    }
+    .wel h4{
+        font-size: 22px;
+    }
+    .main h2{
+        font-size: 18px;
+    }
+    .year{
+        padding: 0 5%;
+    }
+    .year1 ul a li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .year1 ul a{
+        font-size: 1px;
+        padding: 1px;
+    }
+
+    /*-------Servive--------*/
+
+    .scon{
+        padding: 0 2%;
+        margin-top: 10px;
+    }
+    .medt p{
+        font-size: 20px;
+    }
+    .order{
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .order img{
+        width: 25px;
+    }
+    .fly p{
+        font-size: 15px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+
+    /*--------------About--------------*/
+
+    .about{
+        padding: 0 2%;
+        margin-top: 10px;
+    }
+    .relev p{
+        font-size:medium;
+    }
+    .question{
+        font-size: 20px;
+    }
+    .exp img{
+        margin-top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .exp p,.exp li{
+        font-size: 15px;
+    }
+
+    /*-----------Y1S1-------------*/
+
+    .sub{
+        padding: 0 2%;
+    }
+    .s1{
+        padding: 1px;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .s1 h2{
+        font-size: 20px;
+    }
+    .n1 img{
+        width: 25px;
+    }
+    .l h1{
+        font-size: 15px;
+    }
+    .d1 a h3{
+        font-size: 10px;
+    }
+    .d1 a img{
+        width: 15px;
+    }
+    .r p{
+        font-size: 10px;
+    }
+
+}
+.form img{
+    align-content: center;
+}
